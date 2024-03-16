@@ -2,5 +2,6 @@ use proconio::{fastout, input};
 
 #[fastout]
 fn main() {
-    input! {};
+    input! {n: usize, a:usize, b:usize};
+    println!("{}", (n * a).min(b));
 }
